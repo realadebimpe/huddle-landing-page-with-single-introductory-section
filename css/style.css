@@ -1,0 +1,79 @@
+:root {
+    /* ##Primary */
+    --Violet: hsl(257, 40%, 49%);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url("../huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: var(--Violet);
+    padding: 40px 34px;
+    
+}
+
+.hero-image {
+    margin: 60px 0;
+}
+
+.hero-message-title {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'poppins';
+    font-weight: 700;
+    text-align: center;
+    line-height: 36px;
+    margin-bottom: 14px;
+}
+
+.hero-text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'open sans';
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 10px 74px;
+    border-radius: 20px;
+    border: none;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+footer {
+    padding-bottom: 34px;
+    margin-top: 63px;
+    color: #fff;
+    text-align: center;
+}
+
+.social-media-handle i {
+    border: 2px solid #fff;
+    margin: 30px 20px 0 0;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+}
+
+
+
+.attribution {
+    font-size: 11px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
