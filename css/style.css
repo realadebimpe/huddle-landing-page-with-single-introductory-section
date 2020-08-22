@@ -14,7 +14,6 @@
 body {
     background-image: url("../starter-files/images/bg-mobile.svg");
     background-repeat: no-repeat;
-    height: 100vh;
     background-color: var(--Violet);
     padding: 40px 34px;
 }
@@ -93,18 +92,18 @@ footer {
         padding: 40px 34px;
     }
 
-    .logo{
+    .logo {
         height: 66px;
     }
 
-    .hero-illustration{
+    .hero-illustration {
         height: 400px;
         margin-left: 10%;
     }
 
-        .attribution a {
-            font-size: 14px;
-        }
+    .attribution a {
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -119,6 +118,7 @@ footer {
     .hero-illustration {
         height: auto;
     }
+
     .hero-message {
         margin-left: 4%;
         text-align: left;
