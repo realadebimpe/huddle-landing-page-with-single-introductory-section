@@ -82,12 +82,6 @@ footer {
     color: #fff;
     text-decoration: none;
 }
-/* 
-@media screen and (min-width:425px) {
-    .hero-image {
-        width: 360px;
-    }
-} */
 
 @media screen and (min-width: 768px) {
     body {
@@ -130,7 +124,6 @@ footer {
     }
 
     .hero-message {
-        /* margin-left: 4%; */
         text-align: left;
         width: 60%;
     }
@@ -155,5 +148,44 @@ footer {
 
     .attribution a {
         font-size: 16px;
+    }
+
+    @media screen and (min-width: 1440px) {
+    
+     
+        .hero-message-title {
+            font-size: 38px;
+            
+        }
+    
+        .hero-text {
+            text-align: left;
+            font-size: 24px;
+            line-height: 34px;
+        }
+    
+        button {
+            font-size: 20px;
+        }
+    
+        footer{
+            margin-top: 0;
+        }
+
+        .social-media-handle i {
+            margin: 0 40px 30px 0;
+            padding-top: 10px;
+            font-size: 35px;
+            width: 60px;
+            height: 60px;
+        }
+
+        .attribution {
+            font-size: 24px;
+        }
+    
+        .attribution a {
+            font-size: 24px;
+        }
     }
 }
